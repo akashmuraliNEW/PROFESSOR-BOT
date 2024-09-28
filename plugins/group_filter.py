@@ -320,7 +320,7 @@ async def advantage_spell_chok(msg):
     if not g_s:
          k = await msg.reply_photo(photo=SPELL_IMG,caption=script.MVE_NT_FND)
         # await asyncio.sleep(8)
-        return k
+         return k
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
     gs = list(filter(regex.match, g_s))
     gs_parsed = [re.sub(r'\b(\-([a-zA-Z-\s])\-\simdb|(\-\s)?imdb|(\-\s)?wikipedia|\(|\)|\-|reviews|full|all|episode(s)?|film|movie|series)', '', i, flags=re.IGNORECASE) for i in gs]
