@@ -221,13 +221,13 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
 ꜱʜᴀʀᴇ & ꜱᴜᴩᴩᴏʀᴛ, ʀᴇqᴜᴇꜱᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴍᴏᴠɪᴇꜱ"""
 
 
-   ALRT_TXT = """ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ꜰᴏʀ ʏᴏu"""                               
+    ALRT_TXT = """ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ꜰᴏʀ ʏᴏu"""                               
     
-   OLD_ALRT_TXT = """𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐨𝐧𝐞 𝐨𝐟 𝐦𝐲 𝐨𝐥𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐬𝐞𝐧𝐝 𝐭𝐡𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐚𝐠𝐚𝐢𝐧 """                                                                                                                                                                                                                               TOP_ALRT_MSG = """♻️ ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ... ♻️"""
+    OLD_ALRT_TXT = """𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐨𝐧𝐞 𝐨𝐟 𝐦𝐲 𝐨𝐥𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐬𝐞𝐧𝐝 𝐭𝐡𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐚𝐠𝐚𝐢𝐧"""                                                                                                                                                                                                                               TOP_ALRT_MSG = """♻️ ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ... ♻️"""
 
-   MVE_NT_FND = """<b>⭕Given Movie/Series is not found in bot!</b>⭕\n☞ <b>🎭 REASONS (Read Everything Carefully)</b> 👇\n☞ Incorrect spelling\n☞ Dont add special characters or Symbols in text like ' ; : ! ? / * + - _ $ & # @....'\n☞ Movie not released in any OTT platform\n☞ NO Theatre prints \n☞ HD  Files only No leaked prints added\n☞ contact admin if its an Ott released or old movie/series/anime/dramas to add in bot @HELL_GaMi💌"""
+    MVE_NT_FND = """<b>⭕Given Movie/Series is not found in bot!</b>⭕\n☞ <b>🎭 REASONS (Read Everything Carefully)</b> 👇\n☞ Incorrect spelling\n☞ Dont add special characters or Symbols in text like ' ; : ! ? / * + - _ $ & # @....'\n☞ Movie not released in any OTT platform\n☞ NO Theatre prints \n☞ HD  Files only No leaked prints added\n☞ contact admin if its an Ott released or old movie/series/anime/dramas to add in bot @HELL_GaMi💌"""
 
-   I_CUDNT = """ʜᴇʟʟᴏ {} ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇꜱ ɪɴ ᴛʜᴀᴛ ɴᴀᴍᴇ.
+    I_CUDNT = """ʜᴇʟʟᴏ {} ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇꜱ ɪɴ ᴛʜᴀᴛ ɴᴀᴍᴇ.
 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ
 ➠ ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ
 ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ
@@ -237,7 +237,7 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ' : ( ! , . / )"""
 
     
-   IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
+    IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
 
 🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>
 🎭 Gᴇɴʀᴇꜱ: {genres}
