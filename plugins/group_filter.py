@@ -362,15 +362,16 @@ async def advantage_spell_chok(client,msg):
         print('working')
         mv_rqst = msg.text
         print(mv_rqst)
-        reqst_gle = mv_rqst.replace(" ", "+")
-        button = [[
-                   InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
-        ]]
-        await client.reply_photo(
-            photo=SPELL_IMG,
-            caption=script.I_CUDNT.format(mv_rqst),
-            reply_markup=InlineKeyboardMarkup(button)
-        )
+        await msg.reply_text("<b>⭕Given Movie/Series is not found in bot!</b>⭕\n☞ <b>🎭 REASONS (Read Everything Carefully)</b> 👇\n☞ Incorrect spelling\n☞ Dont add special characters or Symbols in text like ' ; : ! ? / * + - _ $ & # @....'\n☞ Movie not released in any OTT platform\n☞ NO Theatre prints \n☞ HD  Files only No leaked prints added\n☞ contact admin if its an Ott released or old movie/series/anime/dramas to add in bot @HELL_GaMi💌")
+        # reqst_gle = mv_rqst.replace(" ", "+")
+        # button = [[
+        #            InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+        # ]]
+        # await client.reply_photo(
+        #     photo=SPELL_IMG,
+        #     caption=script.I_CUDNT.format(mv_rqst),
+        #     reply_markup=InlineKeyboardMarkup(button)
+        # )
         print('endd')
         return
         
