@@ -7,7 +7,7 @@ requests==2.30.0
 bs4==0.0.1
 
 #---database---#
-pymongo==4.5.0
+pymongo==4.4.1
 dnspython==2.3.0
 marshmallow==3.20.1
 umongo==3.1.0
@@ -19,7 +19,7 @@ youtube-search
 yt-dlp==2023.2.17
 
 #---imdb---#
-git+https://github.com/Joelkb/cinemagoer
+cinemagoer
 
 #---others----#
 opencv-python-headless==4.7.0.68
