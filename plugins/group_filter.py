@@ -364,12 +364,12 @@ async def advantage_spell_chok(msg):
         button = [[
                    InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
-        k=await msg.reply_photo(
+        await msg.reply_photo(
             photo=SPELL_IMG,
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        return k
+       
 
 
 async def manual_filters(client, message, text=False):
