@@ -359,9 +359,9 @@ async def auto_filter(client, msg, spoll=False):
 #     # btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
 #     # await msg.reply("I Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ Aɴʏᴛʜɪɴɢ Rᴇʟᴀᴛᴇᴅ Tᴏ Tʜᴀᴛ. Dɪᴅ Yᴏᴜ Mᴇᴀɴ Aɴʏ Oɴᴇ Oғ Tʜᴇsᴇ?", reply_markup=InlineKeyboardMarkup(btn))
 async def advantage_spell_chok(client,msg):
-        print('working')
+        # print('working')
         mv_rqst = msg.text
-        print(mv_rqst)
+        # print(mv_rqst)
         await msg.reply_text("<b>⭕Given Movie/Series is not found in bot!</b>⭕\n☞ <b>🎭 REASONS (Read Everything Carefully)</b> 👇\n☞ Incorrect spelling\n☞ Dont add special characters or Symbols in text like ' ; : ! ? / * + - _ $ & # @....'\n☞ Movie not released in any OTT platform\n☞ NO Theatre prints \n☞ HD  Files only No leaked prints added\n☞ contact admin if its an Ott released or old movie/series/anime/dramas to add in bot @HELL_GaMi💌")
         # reqst_gle = mv_rqst.replace(" ", "+")
         # button = [[
@@ -372,7 +372,7 @@ async def advantage_spell_chok(client,msg):
         #     caption=script.I_CUDNT.format(mv_rqst),
         #     reply_markup=InlineKeyboardMarkup(button)
         # )
-        print('endd')
+        # print('endd')
         return
         
        
