@@ -372,6 +372,7 @@ async def advantage_spell_chok(client,msg):
             reply_markup=InlineKeyboardMarkup(button)
         )
         print('endd')
+        return
         
        
 
